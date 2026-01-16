@@ -37,7 +37,8 @@
 }
  .nav, 
  .banner,
- .Some-facts{
+ .Some-facts,
+ .sponsors-section{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -116,4 +117,23 @@ header nav{
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 10px;
+}
+/* sponsors section */
+.sponsors-content{
+    text-align: center;
+}
+.sponsors-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.sponsors-description{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+.company{
+    filter: grayscale(100%);
+    margin-bottom: 100px;
+    margin-right: 120px;
 }
