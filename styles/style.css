@@ -38,7 +38,8 @@
  .nav, 
  .banner,
  .Some-facts,
- .sponsors-section{
+ .sponsors-section,
+ .footer{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -136,4 +137,13 @@ header nav{
     filter: grayscale(100%);
     margin-bottom: 100px;
     margin-right: 120px;
+}
+/* footer */
+.footer{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 40px;
+    text-align:center ;
+    border-radius: 8px;
+    margin-bottom: 150px;
 }
