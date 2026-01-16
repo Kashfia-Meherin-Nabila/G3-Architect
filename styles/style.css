@@ -37,6 +37,7 @@
 }
  .nav, 
  .banner,
+ .team-section,
  .features-section,
  .Some-facts,
  .sponsors-section,
@@ -81,6 +82,36 @@ header nav{
  }
 .banner img{
     padding-bottom: 50px;
+}
+/* team section */
+.team-section{
+    gap: 75px;
+    padding:100px 0px;
+    align-items: center;
+}
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.heading-span-1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.heading-span-2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.heading-span-3{
+    font-size: 3rem;
+    font-weight: 700;
+    color:rgba(255, 144, 14, 1) ;
+}
+.team-content-description{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 /* features section */
